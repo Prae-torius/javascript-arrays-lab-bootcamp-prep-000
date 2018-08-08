@@ -24,11 +24,14 @@ function appendKitten(name) {
   return kittens.concat(addKitten);
 }
 
-function prependKitten(name){
+function prependKitten(name) {
   var addKitten = ['Arnold'];
   return addKitten.concat(kittens);
 }
 
-function removeLastKitten(){
+function removeLastKitten() {
   return kittens.slice(0, 2);
 }
+
+function removeFirstKitten() {
+  return kittens.slice()
